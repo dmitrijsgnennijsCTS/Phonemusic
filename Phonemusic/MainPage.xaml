@@ -17,6 +17,6 @@
       <Entry x:Name="songGenre"/>
       <Label Text="Track Length:" />
       <Entry x:Name="songLength"/>
-      <Button x:Name="songAdd" Text="Add" IsEnabled="false" Clicked="OnAdd"/>
+      <Button x:Name="songAdd" Text="Add" IsEnabled="true" Clicked="OnAdd"/>
     </StackLayout>
 </ContentPage>
