@@ -1,23 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 
 namespace Phonemusic
 {
     public partial class MainPage : ContentPage
     {
-
         public MainPage()
         {
             InitializeComponent();
         }
-
-        void OnAdd(object sender, EventArgs e)
+        async void OnAddPage(object sender, EventArgs e)
         {
-            if (true)
-            {
-                songAdd.IsEnabled = true;
-                songAdd.Text = "Added!";
-            }
+            await Navigation.PushAsync(new AddSong());
         }
     }
 }
