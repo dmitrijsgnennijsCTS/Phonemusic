@@ -12,7 +12,7 @@
     </ContentPage.Padding>
     <StackLayout>
       <Label Text="Artist:" />
-      <Entry x:Name="songArtist"/>
+      <Entry x:Name="songArtist" />
       <Label Text="Track Name:" />
       <Entry x:Name="songName"/>
       <Label Text="Genre:" />
