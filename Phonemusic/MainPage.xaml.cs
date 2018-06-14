@@ -14,5 +14,9 @@ namespace Phonemusic
         {
             await Navigation.PushAsync(new AddSong());
         }
+        async void OnTextPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Creator());
+        }
     }
 }

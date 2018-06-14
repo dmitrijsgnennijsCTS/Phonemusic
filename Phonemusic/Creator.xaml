@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                    BackgroundColor="#d9dce0"
-                   x:Class="Phonemusic.MainPage">
+                   x:Class="Phonemusic.Creator">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
             <On Platform="iOS" Value="30, 30, 30, 20" />
@@ -10,7 +10,6 @@
         </OnPlatform>
     </ContentPage.Padding>
     <StackLayout>
-      <Button x:Name="songAddPage" TextColor="White" BorderWidth=".2" BackgroundColor="#c5c7c9" BorderColor="#c5c7c9" Text="Add a new song" IsEnabled="true" Clicked="OnAddPage"/>
-      <Button x:Name="songCreatorPage" TextColor="White" BorderWidth=".2" BackgroundColor="#c5c7c9" BorderColor="#c5c7c9" Text="Creator" IsEnabled="true" Clicked="OnTextPage"/>
+        <Label Text="Dimi is the creator" />
     </StackLayout>
 </ContentPage>
