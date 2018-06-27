@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                    x:Class="Phonemusic.AddSong"
-                   BackgroundColor="#d9dce0"
+                   BackgroundColor="#ffffff"
                    Title="Add Song">
     <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
@@ -19,6 +19,6 @@
       <Entry x:Name="songGenre"/>
       <Label Text="Track Length:" />
       <Entry x:Name="songLength"/>
-      <Button x:Name="songAdd" TextColor="White" BorderWidth=".2" BackgroundColor="#c5c7c9" BorderColor="#c5c7c9" Text="Add" IsEnabled="true" TranslationY="10" Clicked="OnAdd"/>
+      <Button x:Name="songAdd" TextColor="White" BorderWidth=".2" BackgroundColor="#47a3ff" BorderColor="#c5c7c9" Text="Add" IsEnabled="true" TranslationY="10" Clicked="OnAdd"/>
     </StackLayout>
 </ContentPage>
