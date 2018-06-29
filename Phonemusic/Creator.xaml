@@ -10,6 +10,8 @@
         </OnPlatform>
     </ContentPage.Padding>
     <StackLayout>
-        <Label Text="Dimi is the creator" />
+        <Label Text="Search the database:" FontSize="20"/>
+        <Entry x:Name="Search"/>
+        <Button x:Name="Search_page" BackgroundColor="#ce0184" TextColor="White" Text="Search"/>
     </StackLayout>
 </ContentPage>
